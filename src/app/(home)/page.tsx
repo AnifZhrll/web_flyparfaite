@@ -493,7 +493,7 @@ export default async function HomePage() {
             </div>
         </div>
     </div>
-    <p className="mx-auto mt-[60px] text-[#A0A0AC] text-sm z-10">All Rights Reserved. Copyright BuildWithAngga 2024.</p>
+    <p className="mx-auto mt-[60px] text-[#A0A0AC] text-sm z-10">All Rights Reserved. Copyright Muhammad Anif Zuhrul Anam 2024.</p>
   </footer>
     </>
   );
