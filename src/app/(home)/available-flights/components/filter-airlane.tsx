@@ -6,8 +6,6 @@ export default async function FilterAirlane() {
 
     const airplanes = await getAirplanes()
 
-    console.log(airplanes);
-
   return (
     <div className="flex flex-col gap-4">
               <p className="font-semibold">Airlines</p>

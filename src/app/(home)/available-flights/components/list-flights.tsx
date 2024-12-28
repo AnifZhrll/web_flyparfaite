@@ -10,7 +10,6 @@ export default function ListFlights() {
 
   const { flights, isLoading } = useContext(FlightContext) as FContext
 
-  console.log(flights);
 
   if (isLoading) {
     return <LoadingListFlights />

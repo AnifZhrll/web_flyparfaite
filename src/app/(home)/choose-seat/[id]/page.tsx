@@ -17,8 +17,6 @@ export default async function ChooseSeatPage({params}: ChooseSeatProps) {
     const {session} = await getUser()
     const flight = await getFlightById(params.id)
 
-    console.log(flight)
-
   return (
     <section id="Chosse-Seat" className="container flex flex-col sm:flex-row items-center sm:items-start justify-between sm:w-[904px] pt-10 mx-auto sm:pb-0 min-h-screen">
     <div className="flex h-[calc(100vh-40px)] items-end">

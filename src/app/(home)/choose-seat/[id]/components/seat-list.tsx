@@ -22,8 +22,6 @@ export default function SeatList({seats}: seatListProps) {
 
         return {seatA, seatB, seatC, seatD}
     }, [checkout, seats])
-    
-    console.log(checkout);
 
   return (
     <form className="flex flex-row justify-between gap-5">

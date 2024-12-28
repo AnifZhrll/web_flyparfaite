@@ -10,7 +10,6 @@ export default async function HomePage() {
 
   const filter = await getCityFilter()
 
-  console.log(filter);
 
   return (
     <>

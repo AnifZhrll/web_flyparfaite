@@ -20,7 +20,7 @@ export default function DepDesDate({data} : DepDesDateProps) {
                 <p className="flex items-center gap-[30px] font-medium text-lg  text-white">My Tickets<span>/</span>Details<span>/</span></p>
                 <div className="flex flex-col gap-1">
                     <h1 className="font-bold text-[32px] leading-[48px]  text-white">{data.flight.departureCity} to {data.flight.destinationCity}</h1>
-                    <p className="font-medium text-lg leading-[27px]  text-white">{dateFormat(data.bookingDate, "DD MMM YYYY")}</p>
+                    <p className="font-medium text-lg leading-[27px]  text-white">{data?.bookingDate ? dateFormat(data.bookingDate, "DD MMM YYYY") : ""}</p>
                 </div>
             </div>
   )
