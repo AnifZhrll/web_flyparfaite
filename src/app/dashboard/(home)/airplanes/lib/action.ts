@@ -41,8 +41,6 @@ export async function saveAirplane(prevState: unknown, formData: FormData): Prom
 
     const uploadedFile = await uploadFile(values.data.image);
 
-    console.log(uploadedFile);
-
     if (uploadedFile instanceof Error){
         return {
             errorTitle: 'Failed to upload file',
